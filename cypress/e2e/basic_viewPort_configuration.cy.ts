@@ -1,8 +1,6 @@
-describe('', () => {
-  beforeEach(() => {
-    cy.visit('')
-  })  
-    it('', () => {
-        
-    });
-});
+describe('Basic', () => {
+  it('Explaination', () => {
+    cy.visit('https://www.testifyltd.com/')
+   
+  })
+})
