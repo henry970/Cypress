@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Using typescript",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome"
+  },
+  "author": "henry",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-real-events": "^1.7.6",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3"
+  }
+}
